@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  background-color: rgb(240, 240, 240) !important;
+}
+
+.logo {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+/* .body-wrapper {
+  max-width: 65%;
+} */
+
+.prime-btn {
+  border-radius: 5px !important;
+  border: 1px solid #0ab3b3 !important;
+  /* background: rgba(10, 179, 179, 0.4) !important; */
+  color: #0ab3b3 !important;
+  font-size: 15px !important;
+  display: flex !important;
+  align-items: center;
+}
+
+.prime-btn2 {
+  border-radius: 5px !important;
+  border: 1px solid #0ab3b3 !important;
+  /* background: rgba(10, 179, 179, 0.4) !important; */
+  color: #0ab3b3 !important;
+  font-size: 15px !important;
+  /* display: flex !important; */
+  align-items: center;
+}
+
+.prime-btn:hover {
+  border-radius: 5px !important;
+  border: 1px solid #0ab3b3 !important;
+  background: rgba(10, 179, 179, 0.4) !important;
+  color: black !important;
+}
+
+.sec-btn {
+  border-radius: 5px !important;
+  border: 1px solid #0ab3b3 !important;
+  background: #0ab3b3 !important;
+}
+
+.typed_wrap {
+  display: block;
+  /* border: 4px solid #ecf0f1; */
+  width: 600px;
+  height: 250px;
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  /*centers it in the .banner*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.typed_wrap h1 {
+  display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+  content: "|";
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor {
+  opacity: 0;
+  display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.banner {
+  margin-top: 20px;
+  border-radius: 10px;
+  /* background-image: url("/assets/site-contents/pexels-prakhar-bansal-732183.jpg"); */
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  /* border: 1px solid #0ab3b3 !important; */
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  /* background-color: white; */
+}
+
+header {
+  background-color: rgb(240, 240, 240) !important;
+}
+
+.wrimagecard {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  position: relative;
+  background: #fff;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.wrimagecard .fa {
+  position: relative;
+  font-size: 70px;
+}
+.wrimagecard-topimage_header {
+  padding: 10px;
+}
+a.wrimagecard:hover,
+.wrimagecard-topimage:hover {
+  box-shadow: 2px 4px 8px 0px rgba(46, 61, 73, 0.2);
+}
+.wrimagecard-topimage a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.wrimagecard-topimage_title {
+  padding: 20px 24px;
+  /* height: 80px; */
+  padding-bottom: 0.75rem;
+  position: relative;
+}
+.wrimagecard-topimage a {
+  border-bottom: none;
+  text-decoration: none;
+  color: #525c65;
+  transition: color 0.3s ease;
+}
+
+.box-head {
+  font-size: 17px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* max-width: 400px; */
+  /* margin: 20px auto; */
+}
+
+label,
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#signaturePreview {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#signaturePreview p {
+  margin: 5px 0;
+}
+
+.related-contents {
+  margin-top: 300px;
+}
+
+#signaturePreview {
+  background-color: rgba(76, 175, 79, 0);
+  border: none;
+}
+
+.nobg {
+  background-color: rgba(76, 175, 79, 0) !important;
+}
+.namebox {
+  border-right: 1px solid black;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #014745;
+  box-shadow: #014745;
+  outline: 0 none;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+  .typed_wrap {
+    display: block;
+    width: 100%;
+    height: 330px;
+    border-radius: 0;
+  }
+
+  .banner {
+    margin-top: 20px;
+    border-radius: 10px;
+    /* background-image: url("/assets/site-contents/pexels-prakhar-bansal-732183.jpg"); */
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+    width: 80%;
+    max-width: 340px;
+    /* border: 1px solid #0ab3b3 !important; */
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  }
+}
